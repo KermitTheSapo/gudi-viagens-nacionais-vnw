@@ -1,0 +1,28 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+
+#contact
+    background-color: variables.$primary-color
+    height: 50vh
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    gap: 15px
+    input
+        border-radius: 16px
+        width: 334px
+        height: 31px
+        border: none
+        padding: 0 10px
+        background-color: variables.$white-color
+    textarea
+        border-radius: 16px
+        width: 334px
+        height: 68px
+        border: none
+        padding: 10px
+        background-color: variables.$white-color
+    button
+        @include mixins.btn
+        border: solid 1px variables.$white-color

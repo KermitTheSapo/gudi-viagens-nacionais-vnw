@@ -1,0 +1,27 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+
+#mural
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    gap: 10px
+    .paragraph
+        font-size: 0.9375rem
+        font-weight: 400
+        color: variables.$paragraph
+    .title
+        text-align: center
+        font-size: 1.5rem
+        font-weight: 700
+        color: variables.$paragraph
+    .imagesMural
+        width: 30%
+        display: flex
+        align-items: center
+        gap: 15px
+        flex-wrap: wrap
+        img
+            height: 197px
+            width: 197px
