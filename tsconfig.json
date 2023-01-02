@@ -23,11 +23,7 @@
     "noImplicitReturns": true,
     "noEmitOnError": true,
     "noImplicitAny": true,
-    "jsx": "react-jsx",
-    "baseUrl": "src",
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "jsx": "react-jsx"
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
