@@ -16,11 +16,15 @@
     flex-direction: column
     height: 85vh
     gap: 20px
+    @media screen and (max-width: 2560px)
+        height: 90vh
     .paragraph
         font-size: 1rem
         font-weight: 400
         color: variables.$paragraph
         font-family: ArgentumSans-Regular
+        @media screen and (min-width: 2560px)
+            font-size: 1.5rem
     .title
         text-align: center
         font-size: 3rem
@@ -28,12 +32,26 @@
         font-weight: 700
         color: variables.$paragraph
         font-family: ArgentumSans-Bold
+        @media screen and (min-width: 2560px)
+            font-size: 3.5rem
+            width: 50%
     .imagesMural
         width: 30%
         display: flex
         align-items: center
         gap: 15px
         flex-wrap: wrap
+        @media screen and (min-width: 2560px)
+            width: 47%
+        @media screen and (max-width: 1440px)
+            width: 44%
+        @media screen and (max-width: 1024px)
+            width: 61%
+        @media screen and (max-width: 768px)
+            width: 81%
         img
             height: 197px
             width: 197px
+            @media screen and (min-width: 2560px)
+                height: 30vh
+                width: 15vw

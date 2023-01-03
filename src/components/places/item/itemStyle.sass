@@ -13,6 +13,8 @@
     display: flex
     align-items: center
     justify-content: center
+    @media screen and (max-width: 1024px)
+        height: 30vh
     img
         width: 100%
     div
@@ -23,6 +25,10 @@
         justify-content: center
         border: 1px solid variables.$white-color
         border-radius: 10px
+        @media screen and (max-width: 1440px)
+            width: 60%
+        @media screen and (max-width: 1024px)
+            width: 80%
         h2
             font-size: 1rem
             color: variables.$white-color
@@ -30,3 +36,5 @@
             text-transform: uppercase
             letter-spacing: 3px
             font-family: ArgentumSans-Regular
+            @media screen and (max-width: 1024px)
+                font-size: 0.7rem

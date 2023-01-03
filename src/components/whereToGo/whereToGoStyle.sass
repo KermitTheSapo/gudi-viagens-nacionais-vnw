@@ -30,6 +30,10 @@
             font-weight: bold
             font-family: ArgentumSans-Bold
             width: 30%
+            @media screen and ( max-width: 1440px )
+                width: 50%
+            @media screen and ( max-width: 768px )
+                width: 100%
         input
             border-radius: 20px
             width: 25%
@@ -43,4 +47,3 @@
                 color: variables.$input-placeholder
         button
             @include mixins.btn
-            

@@ -15,7 +15,7 @@
     align-items: center
     justify-content: center
     flex-direction: column
-    gap: 15px
+    gap: 2vh
     h3
         font-size: 4rem
         color: variables.$white-color
@@ -28,10 +28,14 @@
         border: none
         padding: 0 10px
         background-color: variables.$white-color
+        @media screen and (max-width: 1024px)
+            width: 50%
         &::placeholder
             color: variables.$input-placeholder
             font-size: 0.75rem
             font-family: ArgentumSans-Light
+            @media screen and (min-width: 2560px)
+                font-size: 1rem
     textarea
         border-radius: 16px
         width: 30%
@@ -39,10 +43,14 @@
         border: none
         padding: 10px
         background-color: variables.$white-color
+        @media screen and (max-width: 1024px)
+            width: 50%
         &::placeholder
             color: variables.$input-placeholder
             font-size: 0.75rem
             font-family: ArgentumSans-Light
+            @media screen and (min-width: 2560px)
+                font-size: 1rem
     button
         @include mixins.btn
         border: solid 1px variables.$white-color

@@ -9,27 +9,35 @@
     align-items: center
     justify-content: space-between
     height: 7vh
-    padding: 0 50px
-
+    padding: 0 5vw
     img
         width: 10%
+        @media screen and (max-width: 1024px)
+            width: 20% 
     div
         display: flex
         align-items: center
         justify-content: space-between
-        width: 30vw
+        width: 30%
+        @media screen and (max-width: 1024px)
+            width: 50% 
+        @media screen and (max-width: 768px)
+            width: 70% 
+        nav
+            width: 70%
+            ul
+                display: flex
+                align-items: center
+                justify-content: space-between
+                list-style: none
 
-    ul
-        display: flex
-        align-items: center
-        justify-content: space-between
-        list-style: none
-        width: 20vw
-        a
-            text-decoration: none
-            li
-                color: variables.$primary-color
-                font-size: 1rem
-                font-family: ArgentumSans-Regular
+                a
+                    text-decoration: none
+                    li
+                        color: variables.$primary-color
+                        font-size: 1rem
+                        font-family: ArgentumSans-Regular
+                        @media screen and (min-width: 2560px)
+                            font-size: 1.5rem
     button
         @include mixins.btn
