@@ -1,6 +1,16 @@
 @use '../../styles/variables'
 @use '../../styles/mixins'
 
+@font-face
+    font-family: ArgentumSans-Regular
+    src: url(../../assets/fonts/ArgentumSans-Regular.ttf)
+@font-face
+    font-family: ArgentumSans-Black
+    src: url(../../assets/fonts/ArgentumSans-Black.ttf)
+@font-face
+    font-family: ArgentumSans-Light
+    src: url(../../assets/fonts/ArgentumSans-Light.ttf)
+
 #cards
     display: flex
     align-items: center
@@ -15,7 +25,6 @@
     .content
         height: 50vh
         width: 50%
-        background: transparent linear-gradient(180deg, #005BD5 0%, #002E6B 100%) 0% 0% no-repeat padding-box
         display: flex
         justify-content: center
         flex-direction: column
@@ -30,19 +39,23 @@
                 width: 37px
                 background-color: variables.$white-color
             h3
-                font-size: 0.625rem
+                font-size: 1rem
                 letter-spacing: 3px
                 color: variables.$white-color
                 text-transform: uppercase
                 font-weight: normal
+                font-family: ArgentumSans-Regular
         h2
-            font-size: 2.1875rem
+            font-size: 4rem
+            width: 90%
             color: variables.$white-color
             font-weight: 700
+            font-family: ArgentumSans-Black
         p
             font-size: 0.875rem
             color: variables.$white-color
             font-weight: 400
+            font-family: ArgentumSans-Light
         button
             @include mixins.btn
             background-color: transparent

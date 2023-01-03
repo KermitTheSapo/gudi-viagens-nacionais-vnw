@@ -1,13 +1,27 @@
 @use '../../../styles/variables'
 @use '../../../styles/mixins'
 
+@font-face
+    font-family: ArgentumSans-Bold
+    src: url(../../assets/fonts/ArgentumSans-Bold.ttf)
+@font-face
+    font-family: ArgentumSans-Medium
+    src: url(../../assets/fonts/ArgentumSans-Medium.ttf)
+
 #menuFooter
     h4
         color: variables.$primary-color
-        font-size: 0.9375rem
+        font-size: 1.5rem
         font-weight: 700
-    a
-        text-decoration: none
-        color: variables.$primary-color
-        font-size: 0.75rem
-        font-weight: 400
+        font-family: ArgentumSans-Bold
+    ul
+        display: flex
+        flex-direction: column
+        gap: 10px
+        li
+            a
+                text-decoration: none
+                color: variables.$primary-color
+                font-size: 0.75rem
+                font-weight: 400
+                font-family: ArgentumSans-Medium

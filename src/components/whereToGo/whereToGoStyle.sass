@@ -1,6 +1,13 @@
 @use '../../styles/variables'
 @use '../../styles/mixins'
 
+@font-face
+    font-family: ArgentumSans-Bold
+    src: url(../../assets/fonts/ArgentumSans-Bold.ttf)
+@font-face
+    font-family: ArgentumSans-Light
+    src: url(../../assets/fonts/ArgentumSans-Light.ttf)
+
 #WhereToGo
     background-image: url('../../assets/imgs/main/whereToGo/car.png')
     background-repeat: no-repeat
@@ -16,16 +23,24 @@
         justify-content: center
         height: 100%
         width: 90%
+        gap: 5vh
         h1
-            font-size: 2.1875rem
+            font-size: 4rem
             color: variables.$primary-color
             font-weight: bold
+            font-family: ArgentumSans-Bold
+            width: 30%
         input
             border-radius: 20px
-            width: 259px
-            height: 29px
+            width: 25%
+            height: 7%
             padding: 0 15px
+            border: none
+            outline: none
+            &::placeholder
+                font-family: ArgentumSans-Light
+                font-size: 0.75rem
+                color: variables.$input-placeholder
         button
             @include mixins.btn
-            border: none
-            cursor: pointer
+            
