@@ -1,27 +1,27 @@
 <h1 align="center">
-    <img alt="UI Twitter Web" title="#week-planning" src="./src/assets/imgs/readme/twitter.png" />
+    <img alt="Gudi Viagens nacionais" title="#week-planning" src="./src/assets/imgs/readme/example.png" />
 </h1>
 
 <h1 align="center">
-   <a href="#">UI Twitter Web part 2</a>
+   <a href="#">Gudi Viagens nacionais</a>
 </h1>
 
 <h3 align="center">
-    Fifth front-end challenge of the Compass.uol scholarship program
+    Gudi Viagens nacionais
 </h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/KermitTheSapo/compass-front-challenge-twitter">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/KermitTheSapo/gudi-viagens-nacionais-vnw">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/KermitTheSapo/compass-front-challenge-twitter">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/KermitTheSapo/gudi-viagens-nacionais-vnw">
 
-  <a href="https://github.com/KermitTheSapo/compass-front-challenge-twitter/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KermitTheSapo/compass-front-challenge-twitter">
+  <a href="https://github.com/KermitTheSapo/gudi-viagens-nacionais-vnw/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KermitTheSapo/gudi-viagens-nacionais-vnw">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/KermitTheSapo/compass-front-challenge-twitter/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/KermitTheSapo/compass-front-challenge-twitter?style=social">
+   <a href="https://github.com/KermitTheSapo/gudi-viagens-nacionais-vnw/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/KermitTheSapo/gudi-viagens-nacionais-vnw?style=social">
   </a>
 
 <h4 align="center"> 
@@ -39,65 +39,36 @@
 
 ## About
 
-Recreating the twitter page, using Typescript, React and storybook
-
 Design made for 1440px screens
-
-"npm install" for install the dependences
+"npm install" for install dependencies
 "Npm run dev" for localhost
-"npm run storybook" for storybook
 
 ---
 
 ## Features
 
-- [X] Aside-left
-  - [X] stylization
+- [ ] header
+  - [ ] stylization
   - [X] Structure
-  - [X] routes
-- [X] aside right
-    - [X] structure
-    - [X] stylization
-- [X] main
-    - [X] You should be able to insert comments
-    - [X] Add Publication
-    - [X] add img
-    - [X] The page must have scroll in the middle column (2 or 3 more posts appear)
-    - [X] time
-    - [X] btn with focus
-- [X] footer
-    - [X] stylization
-    - [X] disappear and appear if you are logged in
-    - [X] structure
-- [X] dark mode
-- [X] profile
-    - [X] structure
-    - [X] stylization
-- [X] Login
-    - [X] Save to LocalStorage
-    - [X] mock
-    - [X] Validation if you are logged in or not.
-    - [X] If the user is not logged in, a popup should appear to log in.
-    - [X] Does not allow posting if not logged in
-- [X] storybook
-    - [X] avatar
-    - [X] button
-    - [X] colors
-    - [X] follow
-    - [X] header
-    - [X] icons
-    - [X] menu-item
-    - [X] news
-    - [X] post
-    - [X] profile
-    - [X] profileComponent
-    - [X] searchBar
-    - [X] sideMenu
-    - [X] tabbar
-    - [X] TabbarItem
-    - [X] tweet
-    - [X] introduction
-  
+- [ ] home
+  - [ ] stylization
+  - [X] Structure
+- [ ] cards
+  - [ ] stylization
+  - [X] Structure
+- [ ] places
+  - [ ] stylization
+  - [X] Structure
+- [ ] mural
+  - [ ] stylization
+  - [X] Structure
+- [ ] contact us
+  - [ ] stylization
+  - [X] Structure
+- [ ] footer
+  - [ ] stylization
+  - [X] Structure
+
 ---
 
 ## Author
@@ -114,5 +85,3 @@ Design made for 1440px screens
 ## License
 
 This project is under the license [MIT](./LICENSE).
-
-Made with love by Robert J. :)
