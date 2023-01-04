@@ -17,14 +17,14 @@
     display: flex
     align-items: center
     justify-content: center
-    div
+    .whereToGo__div
         display: flex
         flex-direction: column
         justify-content: center
         height: 100%
         width: 90%
         gap: 5vh
-        h1
+        .whereToGo__title
             font-size: 4rem
             color: variables.$primary-color
             font-weight: bold
@@ -34,7 +34,7 @@
                 width: 50%
             @media screen and ( max-width: 768px )
                 width: 100%
-        input
+        .whereToGo__input
             border-radius: 20px
             width: 25%
             height: 7%
@@ -45,5 +45,5 @@
                 font-family: ArgentumSans-Light
                 font-size: 0.75rem
                 color: variables.$input-placeholder
-        button
+        .whereToGo__btn
             @include mixins.btn

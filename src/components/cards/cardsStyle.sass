@@ -15,10 +15,10 @@
     display: flex
     align-items: center
     justify-content: space-between
-    .img
+    .cards__divImg
         width: 50%
         max-height: 50vh
-        img
+        .cards__img
             width: 100%
             max-height: 50vh
 
@@ -36,7 +36,7 @@
             height: 29vh
             gap: 10px
             padding: 20px 50px
-        div
+        .cards__subtitle
             display: flex
             align-items: center
             gap: 10px
@@ -44,14 +44,14 @@
                 height: 1px
                 width: 37px
                 background-color: variables.$white-color
-            h3
+            .cards__title
                 font-size: 1rem
                 letter-spacing: 3px
                 color: variables.$white-color
                 text-transform: uppercase
                 font-weight: normal
                 font-family: ArgentumSans-Regular
-        h2
+        .content__title
             font-size: 4rem
             width: 90%
             color: variables.$white-color
@@ -63,12 +63,12 @@
                 font-size: 2rem
             @media screen and (max-width: 768px)
                 font-size: 1rem
-        p
+        .content__paragraph
             font-size: 0.875rem
             color: variables.$white-color
             font-weight: 400
             font-family: ArgentumSans-Light
-        button
+        .content__btn
             @include mixins.btn
             background-color: transparent
             border: solid 1px variables.$white-color

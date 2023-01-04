@@ -12,13 +12,13 @@ interface Props {
 export default function MenuFooter({ title, paragraph1, paragraph2, paragraph3, paragraph4, image }: Props) {
     return (
         <div id="menuFooter">
-            <h4>{title}</h4>
+            <h4 className="menuFooter__title">{title}</h4>
             <img src={image} alt={title ? "" : "imagem da logo do Gudi, escrito 'o bom da vida é viver'"} />
-            <ul>
-                <li><a href="#">{paragraph1}</a></li>
-                <li><a href="#">{paragraph2}</a></li>
-                <li><a href="#">{paragraph3}</a></li>
-                <li><a href="#">{paragraph4}</a></li>
+            <ul className="menuFooter__list">
+                <li className="menuFooter__item"><a className="menuFooter__link" href="#">{paragraph1}</a></li>
+                <li className="menuFooter__item"><a className="menuFooter__link" href="#">{paragraph2}</a></li>
+                <li className="menuFooter__item"><a className="menuFooter__link" href="#">{paragraph3}</a></li>
+                <li className="menuFooter__item"><a className="menuFooter__link" href="#">{paragraph4}</a></li>
             </ul>
         </div>
     )

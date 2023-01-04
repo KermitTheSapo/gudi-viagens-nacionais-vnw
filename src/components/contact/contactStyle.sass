@@ -16,12 +16,12 @@
     justify-content: center
     flex-direction: column
     gap: 2vh
-    h3
+    .contact__title
         font-size: 4rem
         color: variables.$white-color
         font-weight: 700
         font-family: ArgentumSans-Bold
-    input
+    .contact__input
         border-radius: 16px
         width: 30%
         height: 4vh
@@ -36,7 +36,7 @@
             font-family: ArgentumSans-Light
             @media screen and (min-width: 2560px)
                 font-size: 1rem
-    textarea
+    .contact__textarea
         border-radius: 16px
         width: 30%
         height: 68px
@@ -51,6 +51,6 @@
             font-family: ArgentumSans-Light
             @media screen and (min-width: 2560px)
                 font-size: 1rem
-    button
+    .contact__button
         @include mixins.btn
         border: solid 1px variables.$white-color

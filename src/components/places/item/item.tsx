@@ -10,10 +10,10 @@ export default function Item({ place, image, color }: Props) {
         <div id="item" style={{
             backgroundImage: `url(${image})`,
         }}>
-            <div style={{
+            <div className="item__div" style={{
                 backgroundColor: color
             }}>
-                <h2>{place}</h2>
+                <h2 className="item__name">{place}</h2>
             </div>
         </div>
     );
