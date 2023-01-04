@@ -14,12 +14,12 @@ export default function Mural() {
             <p className="paragraph">use a hashtag #brasilisverigudi</p>
             <h2 className="title">Nosso mural de Experiências</h2>
             <div className="imagesMural">
-                <img src={bike} alt="" />
-                <img src={dog} alt="" />
-                <img src={family} alt="" />
-                <img src={kid} alt="" />
-                <img src={selfie} alt="" />
-                <img src={trip} alt="" />
+                <img src={bike} alt="uma mulher em uma bicicleta no meio da estrada" />
+                <img src={dog} alt="um homem tirando uma selfie com um cachorro" />
+                <img src={family} alt="uma familia em cima de uma pedra na praia pulando" />
+                <img src={kid} alt="uma pai jogando seu filho para cima" />
+                <img src={selfie} alt="uma familia tirando uma selfie" />
+                <img src={trip} alt="um homem com barba, óculos e bone tirando uma selfie enquanto da uma caminhada em uma montanha" />
             </div>
             <Characteristics />
         </div>

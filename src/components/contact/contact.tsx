@@ -7,7 +7,7 @@ export default function Contact() {
             <input type="text" placeholder="Diga o seu melhor email" />
             <input type="text" placeholder="Assunto" />
             <textarea name="" id="" cols={30} rows={10} placeholder="Escreva a sua mensagem"></textarea>
-            <button>Enviar</button>
+            <button role={"send"}>Enviar</button>
         </div>
     )
 }

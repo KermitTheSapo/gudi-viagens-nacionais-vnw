@@ -14,9 +14,9 @@ export default function Home() {
         <>
             <Header />
             <WhereToGo />
-            <Cards image={image} title={"O clima perfeito, no lugar perfeito"} text={"Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos não tem preço."} primary={true}/>
-            <Cards image={image2} title={"Curta uma nova vibe entre amigos"} text={"Rachando a conta ou rachando o bico, a melhor hora pra curtir é entre amigos. Conheça nossos Planos Multi."} primary={false}/>
-            <Cards image={image3} title={"Algumas experiências são inexplicáveis"} text={"Conheça as fontes termais de Caldas Novas, Goiás. Águas quentes, num clima sereno, relaxante e natural."} primary={true}/>
+            <Cards image={image} title={"O clima perfeito, no lugar perfeito"} text={"Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos não tem preço."} primary={true} alt={"imagem de dois casais se olhando numa vista de vários baloes de ar grandes atrás"} />
+            <Cards image={image2} title={"Curta uma nova vibe entre amigos"} text={"Rachando a conta ou rachando o bico, a melhor hora pra curtir é entre amigos. Conheça nossos Planos Multi."} primary={false} alt={"um grupo de amigos em uma montanha"} />
+            <Cards image={image3} title={"Algumas experiências são inexplicáveis"} text={"Conheça as fontes termais de Caldas Novas, Goiás. Águas quentes, num clima sereno, relaxante e natural."} primary={true} alt={"um grupo de amigos em um mar transparente fazendo um circulo"} />
             <Places />
             <Mural />
             <Contact />

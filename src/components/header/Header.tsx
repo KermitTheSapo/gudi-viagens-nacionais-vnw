@@ -4,7 +4,7 @@ import logo from "../../assets/imgs/header/logo.png"
 export default function Header() {
     return (
         <div id="header">
-            <img src={logo} alt="" />
+            <img src={logo} alt="imagem da logo do Gudi, escrito 'o bom da vida é viver'" />
             <div>
                 <nav>
                     <ul>

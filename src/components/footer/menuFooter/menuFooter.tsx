@@ -13,7 +13,7 @@ export default function MenuFooter({ title, paragraph1, paragraph2, paragraph3, 
     return (
         <div id="menuFooter">
             <h4>{title}</h4>
-            <img src={image} alt="" />
+            <img src={image} alt={title ? "" : "imagem da logo do Gudi, escrito 'o bom da vida é viver'"} />
             <ul>
                 <li><a href="#">{paragraph1}</a></li>
                 <li><a href="#">{paragraph2}</a></li>
