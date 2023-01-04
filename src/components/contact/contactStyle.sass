@@ -21,6 +21,10 @@
         color: variables.$white-color
         font-weight: 700
         font-family: ArgentumSans-Bold
+        @media screen and (max-width: 425px)
+            font-size: 3rem
+        @media screen and (max-width: 320px)
+            font-size: 2rem
     .contact__input
         border-radius: 16px
         width: 30%
@@ -43,12 +47,13 @@
         border: none
         padding: 10px
         background-color: variables.$white-color
+        font-family: ArgentumSans-Light
         @media screen and (max-width: 1024px)
             width: 50%
         &::placeholder
             color: variables.$input-placeholder
             font-size: 0.75rem
-            font-family: ArgentumSans-Light
+            font-style: normal
             @media screen and (min-width: 2560px)
                 font-size: 1rem
     .contact__button

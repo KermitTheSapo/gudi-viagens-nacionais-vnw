@@ -14,14 +14,25 @@
         font-size: 1.5rem
         font-weight: 700
         font-family: ArgentumSans-Bold
+        @media screen and (max-width: 425px)
+            width: 100%
+            text-align: center
     .menuFooter__list
         display: flex
         flex-direction: column
         gap: 10px
         .menuFooter__item
+            @media screen and (max-width: 425px)
+                width: 100%
+                display: flex
+                align-self: center
+                justify-content: center
             .menuFooter__link
                 text-decoration: none
                 color: variables.$primary-color
                 font-size: 0.75rem
                 font-weight: 400
                 font-family: ArgentumSans-Medium
+                @media screen and (max-width: 425px)
+                    width: 100%
+                    text-align: center
