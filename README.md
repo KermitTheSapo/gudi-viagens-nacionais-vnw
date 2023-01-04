@@ -25,7 +25,7 @@
   </a>
 
 <h4 align="center"> 
-	 Status: Doing
+	 Status: Done
 </h4>
 
 <p align="center">
@@ -47,27 +47,28 @@ Design made for 1440px screens
 
 ## Features
 
-- [ ] header
-  - [ ] stylization
-  - [X] Structure
-- [ ] home
-  - [ ] stylization
-  - [X] Structure
-- [ ] cards
-  - [ ] stylization
-  - [X] Structure
-- [ ] places
-  - [ ] stylization
-  - [X] Structure
-- [ ] mural
-  - [ ] stylization
-  - [X] Structure
-- [ ] contact us
-  - [ ] stylization
-  - [X] Structure
-- [ ] footer
-  - [ ] stylization
-  - [X] Structure
+- [X] header
+  - [X] Estrutura
+  - [X] Estilização
+- [X] home
+  - [X] Estrutura
+  - [X] Estilização
+- [X] cards
+  - [X] Estrutura
+  - [X] Estilização
+- [X] places
+  - [X] Estrutura
+  - [X] Estilização
+- [X] mural
+  - [X] Estrutura
+  - [X] Estilização
+- [X] contact us
+  - [X] Estrutura
+  - [X] Estilização
+- [X] footer
+  - [X] Estrutura
+  - [X] Estilização
+- [X] Design responsivo
 
 ---
 
